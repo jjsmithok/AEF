@@ -1,0 +1,123 @@
+{
+  "name": "AI Enterprise Control Tower",
+  "schema": "https://mintlify.com/docs.json",
+  "version": "2.0.0",
+  "footerSocial": {
+    "github": "https://github.com/openclaw/aws-control-tower"
+  },
+  "favicon": "/assets/logo.jpg",
+  "colors": {
+    "primary": "#232F3E",
+    "secondary": "#FF9900",
+    "accent": "#00A1C9",
+    "background": "#FFFFFF",
+    "dark": {
+      "primary": "#FF9900",
+      "background": "#1A1A1A"
+    }
+  },
+  "logo": {
+    "url": "/assets/logo.jpg"
+  },
+  "darkMode": {
+    "logo": {
+      "url": "/assets/logo.jpg"
+    }
+  },
+  "globals": {
+    "metadata": {
+      "image": "/assets/banner.jpg"
+    }
+  },
+  "navigation": [
+    {
+      "title": "Overview",
+      "url": ""
+    },
+    {
+      "title": "Foundation Layer",
+      "url": "/foundation",
+      "children": [
+        {
+          "title": "IAM & Bootstrap",
+          "url": "/foundation/iam-roles"
+        },
+        {
+          "title": "ArgoCD Setup",
+          "url": "/foundation/argocd"
+        }
+      ]
+    },
+    {
+      "title": "Control Tower",
+      "url": "/control-tower",
+      "children": [
+        {
+          "title": "Architecture",
+          "url": "/control-tower/architecture"
+        },
+        {
+          "title": "Kafka Setup",
+          "url": "/control-tower/kafka"
+        },
+        {
+          "title": "Orchestration",
+          "url": "/control-tower/orchestration"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "url": "/monitoring",
+      "children": [
+        {
+          "title": "Observability Stack",
+          "url": "/monitoring/overview"
+        },
+        {
+          "title": "Metrics & Dashboards",
+          "url": "/monitoring/metrics"
+        }
+      ]
+    },
+    {
+      "title": "Security Agent",
+      "url": "/security-agent"
+    },
+    {
+      "title": "Network Agent",
+      "url": "/network-agent"
+    },
+    {
+      "title": "Infrastructure Agent",
+      "url": "/infrastructure-agent"
+    },
+    {
+      "title": "Applications Agent",
+      "url": "/applications-agent"
+    },
+    {
+      "title": "Member Agent",
+      "url": "/member-agent"
+    },
+    {
+      "title": "Environments",
+      "url": "/environments"
+    },
+    {
+      "title": "Governance",
+      "url": "/governance"
+    },
+    {
+      "title": "Playbooks",
+      "url": "/playbooks"
+    }
+  ],
+  "anchors": [
+    {
+      "title": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/openclaw/aws-control-tower"
+    }
+  ]
+}
