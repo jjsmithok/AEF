@@ -3,9 +3,9 @@
   "schema": "https://mintlify.com/docs.json",
   "version": "2.0.0",
   "footerSocial": {
-    "github": "https://github.com/openclaw/aws-control-tower"
+    "github": "https://github.com/jjsmithok/AEF"
   },
-  "favicon": "/assets/logo.jpg",
+  "favicon": "/docs/assets/logo.jpg",
   "colors": {
     "primary": "#232F3E",
     "secondary": "#FF9900",
@@ -17,107 +17,79 @@
     }
   },
   "logo": {
-    "url": "/assets/logo.jpg"
+    "url": "/docs/assets/logo.jpg"
   },
   "darkMode": {
     "logo": {
-      "url": "/assets/logo.jpg"
+      "url": "/docs/assets/logo.jpg"
     }
   },
   "globals": {
     "metadata": {
-      "image": "/assets/banner.jpg"
+      "image": "/docs/assets/banner.jpg"
     }
   },
   "navigation": [
     {
       "title": "Overview",
-      "url": ""
+      "url": "/docs"
     },
     {
       "title": "Foundation Layer",
-      "url": "/foundation",
+      "url": "/docs/foundation",
       "children": [
         {
           "title": "IAM & Bootstrap",
-          "url": "/foundation/iam-roles"
-        },
-        {
-          "title": "ArgoCD Setup",
-          "url": "/foundation/argocd"
+          "url": "/docs/foundation"
         }
       ]
     },
     {
       "title": "Control Tower",
-      "url": "/control-tower",
-      "children": [
-        {
-          "title": "Architecture",
-          "url": "/control-tower/architecture"
-        },
-        {
-          "title": "Kafka Setup",
-          "url": "/control-tower/kafka"
-        },
-        {
-          "title": "Orchestration",
-          "url": "/control-tower/orchestration"
-        }
-      ]
+      "url": "/docs/control-tower"
     },
     {
       "title": "Monitoring",
-      "url": "/monitoring",
-      "children": [
-        {
-          "title": "Observability Stack",
-          "url": "/monitoring/overview"
-        },
-        {
-          "title": "Metrics & Dashboards",
-          "url": "/monitoring/metrics"
-        }
-      ]
+      "url": "/docs/monitoring"
     },
     {
       "title": "Security Agent",
-      "url": "/security-agent"
+      "url": "/docs/security-agent"
     },
     {
       "title": "Network Agent",
-      "url": "/network-agent"
+      "url": "/docs/network-agent"
     },
     {
       "title": "Infrastructure Agent",
-      "url": "/infrastructure-agent"
+      "url": "/docs/infrastructure-agent"
     },
     {
       "title": "Applications Agent",
-      "url": "/applications-agent"
+      "url": "/docs/applications-agent"
     },
     {
       "title": "Member Agent",
-      "url": "/member-agent"
+      "url": "/docs/member-agent"
     },
     {
       "title": "Environments",
-      "url": "/environments"
+      "url": "/docs/environments"
     },
     {
       "title": "Governance",
-      "url": "/governance"
+      "url": "/docs/governance"
     },
     {
       "title": "Playbooks",
-      "url": "/playbooks"
+      "url": "/docs/playbooks"
     }
   ],
   "anchors": [
     {
       "title": "GitHub",
       "icon": "github",
-      "url": "https://github.com/openclaw/aws-control-tower"
+      "url": "https://github.com/jjsmithok/AEF"
     }
   ]
 }
