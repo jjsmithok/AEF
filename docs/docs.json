@@ -7,10 +7,10 @@
     "dark": "#FF9900"
   },
   "logo": {
-    "light": "/docs/assets/logo.jpg",
-    "dark": "/docs/assets/logo.jpg"
+    "light": "/assets/logo.jpg",
+    "dark": "/assets/logo.jpg"
   },
-  "favicon": "/docs/assets/logo.jpg",
+  "favicon": "/assets/logo.jpg",
   "navigation": {
     "tabs": [
       {
