@@ -8,10 +8,10 @@
     "dark": "#FF9900"
   },
   "logo": {
-    "light": "/assets/logo.jpg",
-    "dark": "/assets/logo.jpg"
+    "light": "/docs/assets/logo.jpg",
+    "dark": "/docs/assets/logo.jpg"
   },
-  "favicon": "/assets/logo.jpg",
+  "favicon": "/docs/assets/logo.jpg",
   "navigation": {
     "tabs": [
       {
@@ -19,11 +19,11 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["README"]
+            "pages": ["docs/README"]
           },
           {
             "group": "Architecture",
-            "pages": ["diagrams"]
+            "pages": ["docs/diagrams"]
           }
         ]
       },
@@ -32,15 +32,15 @@
         "groups": [
           {
             "group": "Foundation",
-            "pages": ["foundation"]
+            "pages": ["docs/foundation"]
           },
           {
             "group": "Control Tower",
-            "pages": ["control-tower"]
+            "pages": ["docs/control-tower"]
           },
           {
             "group": "Monitoring",
-            "pages": ["monitoring"]
+            "pages": ["docs/monitoring"]
           }
         ]
       },
@@ -49,23 +49,23 @@
         "groups": [
           {
             "group": "Security",
-            "pages": ["security-agent"]
+            "pages": ["docs/security-agent"]
           },
           {
             "group": "Network",
-            "pages": ["network-agent"]
+            "pages": ["docs/network-agent"]
           },
           {
             "group": "Infrastructure",
-            "pages": ["infrastructure-agent"]
+            "pages": ["docs/infrastructure-agent"]
           },
           {
             "group": "Applications",
-            "pages": ["applications-agent"]
+            "pages": ["docs/applications-agent"]
           },
           {
             "group": "Member",
-            "pages": ["member-agent"]
+            "pages": ["docs/member-agent"]
           }
         ]
       },
@@ -74,15 +74,15 @@
         "groups": [
           {
             "group": "Environments",
-            "pages": ["environments"]
+            "pages": ["docs/environments"]
           },
           {
             "group": "Governance",
-            "pages": ["governance"]
+            "pages": ["docs/governance"]
           },
           {
             "group": "Playbooks",
-            "pages": ["playbooks"]
+            "pages": ["docs/playbooks"]
           }
         ]
       }
@@ -101,7 +101,7 @@
     "links": [
       {
         "label": "Architecture",
-        "href": "/diagrams"
+        "href": "/docs/diagrams"
       },
       {
         "label": "GitHub",
@@ -111,7 +111,7 @@
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "/"
+      "href": "/docs"
     }
   },
   "footer": {
