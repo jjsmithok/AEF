@@ -9,7 +9,7 @@ description: Complete documentation for the autonomous AWS Control Tower with 5 
 
 A fully autonomous, zero-trust enterprise infrastructure platform built on AWS with 5 AI Agents.
 
-![Banner](/assets/banner.jpg)
+![Banner](/docs/assets/banner.jpg)
 
 ## Why Control Tower?
 

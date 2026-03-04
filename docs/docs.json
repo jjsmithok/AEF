@@ -1,5 +1,4 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AI Enterprise Control Tower",
   "colors": {
@@ -12,111 +11,61 @@
     "dark": "/docs/assets/logo.jpg"
   },
   "favicon": "/docs/assets/logo.jpg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Getting Started",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["README"]
-          },
-          {
-            "group": "Architecture",
-            "pages": ["diagrams"]
-          }
-        ]
-      },
-      {
-        "tab": "Core Layers",
-        "groups": [
-          {
-            "group": "Foundation",
-            "pages": ["foundation"]
-          },
-          {
-            "group": "Control Tower",
-            "pages": ["control-tower"]
-          },
-          {
-            "group": "Monitoring",
-            "pages": ["monitoring"]
-          }
-        ]
-      },
-      {
-        "tab": "Agents",
-        "groups": [
-          {
-            "group": "Security",
-            "pages": ["security-agent"]
-          },
-          {
-            "group": "Network",
-            "pages": ["network-agent"]
-          },
-          {
-            "group": "Infrastructure",
-            "pages": ["infrastructure-agent"]
-          },
-          {
-            "group": "Applications",
-            "pages": ["applications-agent"]
-          },
-          {
-            "group": "Member",
-            "pages": ["member-agent"]
-          }
-        ]
-      },
-      {
-        "tab": "Operations",
-        "groups": [
-          {
-            "group": "Environments",
-            "pages": ["environments"]
-          },
-          {
-            "group": "Governance",
-            "pages": ["governance"]
-          },
-          {
-            "group": "Playbooks",
-            "pages": ["playbooks"]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/jjsmithok/AEF",
-          "icon": "github"
-        }
-      ]
+  "navigation": [
+    {
+      "title": "Overview",
+      "url": "/docs"
+    },
+    {
+      "title": "Architecture",
+      "url": "/docs/diagrams"
+    },
+    {
+      "title": "Foundation",
+      "url": "/docs/foundation"
+    },
+    {
+      "title": "Control Tower",
+      "url": "/docs/control-tower"
+    },
+    {
+      "title": "Monitoring",
+      "url": "/docs/monitoring"
+    },
+    {
+      "title": "Security Agent",
+      "url": "/docs/security-agent"
+    },
+    {
+      "title": "Network Agent",
+      "url": "/docs/network-agent"
+    },
+    {
+      "title": "Infrastructure Agent",
+      "url": "/docs/infrastructure-agent"
+    },
+    {
+      "title": "Applications Agent",
+      "url": "/docs/applications-agent"
+    },
+    {
+      "title": "Member Agent",
+      "url": "/docs/member-agent"
+    },
+    {
+      "title": "Environments",
+      "url": "/docs/environments"
+    },
+    {
+      "title": "Governance",
+      "url": "/docs/governance"
+    },
+    {
+      "title": "Playbooks",
+      "url": "/docs/playbooks"
     }
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Architecture",
-        "href": "/docs/diagrams"
-      },
-      {
-        "label": "GitHub",
-        "href": "https://github.com/jjsmithok/AEF"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/docs"
-    }
-  },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/jjsmithok/AEF"
-    }
+  ],
+  "footerSocial": {
+    "github": "https://github.com/jjsmithok/AEF"
   }
 }
