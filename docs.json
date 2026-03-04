@@ -1,33 +1,14 @@
 {
   "name": "AI Enterprise Control Tower",
+  "theme": "mint",
   "schema": "https://mintlify.com/docs.json",
   "version": "2.0.0",
   "footerSocial": {
     "github": "https://github.com/jjsmithok/AEF"
   },
   "favicon": "/docs/assets/logo.jpg",
-  "colors": {
-    "primary": "#232F3E",
-    "secondary": "#FF9900",
-    "accent": "#00A1C9",
-    "background": "#FFFFFF",
-    "dark": {
-      "primary": "#FF9900",
-      "background": "#1A1A1A"
-    }
-  },
   "logo": {
     "url": "/docs/assets/logo.jpg"
-  },
-  "darkMode": {
-    "logo": {
-      "url": "/docs/assets/logo.jpg"
-    }
-  },
-  "globals": {
-    "metadata": {
-      "image": "/docs/assets/banner.jpg"
-    }
   },
   "navigation": [
     {
