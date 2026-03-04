@@ -19,51 +19,51 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["docs"]
+            "pages": ["README"]
           },
           {
             "group": "Foundation Layer",
-            "pages": ["docs/foundation"]
+            "pages": ["foundation"]
           },
           {
             "group": "Control Tower",
-            "pages": ["docs/control-tower"]
+            "pages": ["control-tower"]
           },
           {
             "group": "Monitoring",
-            "pages": ["docs/monitoring"]
+            "pages": ["monitoring"]
           },
           {
             "group": "Security Agent",
-            "pages": ["docs/security-agent"]
+            "pages": ["security-agent"]
           },
           {
             "group": "Network Agent",
-            "pages": ["docs/network-agent"]
+            "pages": ["network-agent"]
           },
           {
             "group": "Infrastructure Agent",
-            "pages": ["docs/infrastructure-agent"]
+            "pages": ["infrastructure-agent"]
           },
           {
             "group": "Applications Agent",
-            "pages": ["docs/applications-agent"]
+            "pages": ["applications-agent"]
           },
           {
             "group": "Member Agent",
-            "pages": ["docs/member-agent"]
+            "pages": ["member-agent"]
           },
           {
             "group": "Environments",
-            "pages": ["docs/environments"]
+            "pages": ["environments"]
           },
           {
             "group": "Governance",
-            "pages": ["docs/governance"]
+            "pages": ["governance"]
           },
           {
             "group": "Playbooks",
-            "pages": ["docs/playbooks"]
+            "pages": ["playbooks"]
           }
         ]
       }
