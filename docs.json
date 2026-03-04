@@ -15,14 +15,23 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Getting Started",
         "groups": [
           {
             "group": "Overview",
             "pages": ["README"]
           },
           {
-            "group": "Foundation Layer",
+            "group": "Architecture",
+            "pages": ["diagrams"]
+          }
+        ]
+      },
+      {
+        "tab": "Core Layers",
+        "groups": [
+          {
+            "group": "Foundation",
             "pages": ["foundation"]
           },
           {
@@ -32,27 +41,37 @@
           {
             "group": "Monitoring",
             "pages": ["monitoring"]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Agents",
+        "groups": [
           {
-            "group": "Security Agent",
+            "group": "Security",
             "pages": ["security-agent"]
           },
           {
-            "group": "Network Agent",
+            "group": "Network",
             "pages": ["network-agent"]
           },
           {
-            "group": "Infrastructure Agent",
+            "group": "Infrastructure",
             "pages": ["infrastructure-agent"]
           },
           {
-            "group": "Applications Agent",
+            "group": "Applications",
             "pages": ["applications-agent"]
           },
           {
-            "group": "Member Agent",
+            "group": "Member",
             "pages": ["member-agent"]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Operations",
+        "groups": [
           {
             "group": "Environments",
             "pages": ["environments"]
@@ -76,6 +95,28 @@
           "icon": "github"
         }
       ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Architecture",
+        "href": "/docs/diagrams"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/jjsmithok/AEF"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "/docs"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/jjsmithok/AEF"
     }
   }
 }
