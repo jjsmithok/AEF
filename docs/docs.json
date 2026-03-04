@@ -19,11 +19,11 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["docs/README"]
+            "pages": ["README"]
           },
           {
             "group": "Architecture",
-            "pages": ["docs/diagrams"]
+            "pages": ["diagrams"]
           }
         ]
       },
@@ -32,15 +32,15 @@
         "groups": [
           {
             "group": "Foundation",
-            "pages": ["docs/foundation"]
+            "pages": ["foundation"]
           },
           {
             "group": "Control Tower",
-            "pages": ["docs/control-tower"]
+            "pages": ["control-tower"]
           },
           {
             "group": "Monitoring",
-            "pages": ["docs/monitoring"]
+            "pages": ["monitoring"]
           }
         ]
       },
@@ -49,23 +49,23 @@
         "groups": [
           {
             "group": "Security",
-            "pages": ["docs/security-agent"]
+            "pages": ["security-agent"]
           },
           {
             "group": "Network",
-            "pages": ["docs/network-agent"]
+            "pages": ["network-agent"]
           },
           {
             "group": "Infrastructure",
-            "pages": ["docs/infrastructure-agent"]
+            "pages": ["infrastructure-agent"]
           },
           {
             "group": "Applications",
-            "pages": ["docs/applications-agent"]
+            "pages": ["applications-agent"]
           },
           {
             "group": "Member",
-            "pages": ["docs/member-agent"]
+            "pages": ["member-agent"]
           }
         ]
       },
@@ -74,15 +74,15 @@
         "groups": [
           {
             "group": "Environments",
-            "pages": ["docs/environments"]
+            "pages": ["environments"]
           },
           {
             "group": "Governance",
-            "pages": ["docs/governance"]
+            "pages": ["governance"]
           },
           {
             "group": "Playbooks",
-            "pages": ["docs/playbooks"]
+            "pages": ["playbooks"]
           }
         ]
       }
