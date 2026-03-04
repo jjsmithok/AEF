@@ -1,68 +1,67 @@
 {
   "name": "AI Enterprise Control Tower",
   "theme": "mint",
-  "schema": "https://mintlify.com/docs.json",
-  "version": "2.0.0",
-  "footerSocial": {
-    "github": "https://github.com/jjsmithok/AEF"
+  "colors": {
+    "primary": "#232F3E",
+    "secondary": "#FF9900",
+    "accent": "#00A1C9",
+    "background": "#FFFFFF"
   },
+  "logo": "/docs/assets/logo.jpg",
   "favicon": "/docs/assets/logo.jpg",
-  "logo": {
-    "url": "/docs/assets/logo.jpg"
-  },
   "navigation": [
     {
-      "title": "Overview",
-      "url": "/docs"
+      "group": "Overview",
+      "pages": ["docs"]
     },
     {
-      "title": "Foundation Layer",
-      "url": "/docs/foundation"
+      "group": "Foundation Layer",
+      "pages": ["docs/foundation"]
     },
     {
-      "title": "Control Tower",
-      "url": "/docs/control-tower"
+      "group": "Control Tower",
+      "pages": ["docs/control-tower"]
     },
     {
-      "title": "Monitoring",
-      "url": "/docs/monitoring"
+      "group": "Monitoring",
+      "pages": ["docs/monitoring"]
     },
     {
-      "title": "Security Agent",
-      "url": "/docs/security-agent"
+      "group": "Security Agent",
+      "pages": ["docs/security-agent"]
     },
     {
-      "title": "Network Agent",
-      "url": "/docs/network-agent"
+      "group": "Network Agent",
+      "pages": ["docs/network-agent"]
     },
     {
-      "title": "Infrastructure Agent",
-      "url": "/docs/infrastructure-agent"
+      "group": "Infrastructure Agent",
+      "pages": ["docs/infrastructure-agent"]
     },
     {
-      "title": "Applications Agent",
-      "url": "/docs/applications-agent"
+      "group": "Applications Agent",
+      "pages": ["docs/applications-agent"]
     },
     {
-      "title": "Member Agent",
-      "url": "/docs/member-agent"
+      "group": "Member Agent",
+      "pages": ["docs/member-agent"]
     },
     {
-      "title": "Environments",
-      "url": "/docs/environments"
+      "group": "Environments",
+      "pages": ["docs/environments"]
     },
     {
-      "title": "Governance",
-      "url": "/docs/governance"
+      "group": "Governance",
+      "pages": ["docs/governance"]
     },
     {
-      "title": "Playbooks",
-      "url": "/docs/playbooks"
+      "group": "Playbooks",
+      "pages": ["docs/playbooks"]
     }
   ],
   "anchors": [
     {
-      "title": "GitHub",
+      "name": "GitHub",
       "icon": "github",
       "url": "https://github.com/jjsmithok/AEF"
     }
