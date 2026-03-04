@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.log
+.terraform.lock.hcl
+
+# Keys (sensitive)
+*.pem
+*.key
+*.credentials
+
+# IDE
+.vscode/
+.idea/

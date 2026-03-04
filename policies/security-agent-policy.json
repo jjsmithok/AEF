@@ -1,0 +1,79 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:GetUser",
+        "iam:GetRole",
+        "iam:GetPolicy",
+        "iam:ListUsers",
+        "iam:ListRoles",
+        "iam:ListPolicies",
+        "iam:ListGroupsForUser",
+        "iam:ListAttachedUserPolicies",
+        "iam:ListGroupPolicies",
+        "iam:GetAccountPasswordPolicy",
+        "iam:GetAccountSummary",
+        "iam:ListMFADevices"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "guardduty:Get*",
+        "guardduty:List*",
+        "guardduty:DescribeOrganizationConfiguration",
+        "guardduty:DescribePublishingDestination"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "securityhub:Get*",
+        "securityhub:List*",
+        "securityhub:Describe*",
+        "securityhub:CreateInsight",
+        "securityhub:UpdateInsight"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "kms:ListKeys",
+        "kms:DescribeKey",
+        "kms:GetKeyPolicy",
+        "kms:ListAliases"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "secretsmanager:ListSecrets",
+        "secretsmanager:DescribeSecret",
+        "secretsmanager:GetResourcePolicy"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Deny",
+      "Action": [
+        "iam:DeleteUser",
+        "iam:DeleteRole",
+        "iam:DeletePolicy",
+        "iam:PutUserPolicy",
+        "iam:PutRolePolicy",
+        "iam:AttachUserPolicy",
+        "iam:AttachRolePolicy",
+        "iam:CreateUser",
+        "iam:CreateRole",
+        "iam:CreatePolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

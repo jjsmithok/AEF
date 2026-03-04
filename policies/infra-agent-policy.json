@@ -1,0 +1,86 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeInstances",
+        "ec2:DescribeVolumes",
+        "ec2:DescribeSnapshots",
+        "ec2:DescribeInstanceTypes",
+        "ec2:DescribeKeyPairs",
+        "ec2:DescribeImages",
+        "ec2:DescribeLaunchTemplates",
+        "ec2:DescribeAutoScalingGroups",
+        "ec2:DescribeScheduledInstances",
+        "ec2:DescribeSpotInstanceRequests"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "rds:DescribeDBInstances",
+        "rds:DescribeDBClusters",
+        "rds:DescribeDBEngineVersions",
+        "rds:DescribeDBParameterGroups",
+        "rds:DescribeDBSubnetGroups",
+        "rds:DescribeOptionGroups",
+        "rds:DescribeEventSubscriptions"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListAllMyBuckets",
+        "s3:GetBucketPolicy",
+        "s3:GetBucketTagging",
+        "s3:GetBucketLocation",
+        "s3:GetBucketAcl",
+        "s3:GetBucketVersioning"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "elasticache:DescribeCacheClusters",
+        "elasticache:DescribeCacheSubnetGroups",
+        "elasticache:DescribeEngineDefaultParameters"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "backup:ListBackupPlans",
+        "backup:ListBackupVaults",
+        "backup:DescribeBackupVault"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudwatch:DescribeAlarms",
+        "cloudwatch:ListMetrics",
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Deny",
+      "Action": [
+        "iam:*",
+        "ec2:TerminateInstances",
+        "ec2:DeleteVolume",
+        "ec2:DeleteSnapshot",
+        "rds:DeleteDBInstance",
+        "rds:DeleteDBCluster",
+        "s3:DeleteBucket"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

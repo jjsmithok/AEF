@@ -1,0 +1,13 @@
+[
+  {
+    "Sid": "DenyRootLogin",
+    "Effect": "Deny",
+    "Action": "*",
+    "Resource": "*",
+    "Condition": {
+      "StringLike": {
+        "aws:PrincipalARN": "arn:aws:iam::*:root"
+      }
+    }
+  }
+]

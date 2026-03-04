@@ -1,0 +1,38 @@
+# Grafana Datasources - Auto-provisioned
+apiVersion: 1
+
+datasources:
+  # Mimir - Metrics
+  - name: Mimir
+    type: prometheus
+    access: proxy
+    url: http://mimir:8080
+    isDefault: true
+    editable: false
+    jsonData:
+      httpMethod: POST
+
+  # Loki - Logs
+  - name: Loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    editable: false
+
+  # Tempo - Traces
+  - name: Tempo
+    type: tempo
+    access: proxy
+    url: http://tempo:3200
+    editable: false
+    jsonData:
+      httpMethod: GET
+
+  # Alertmanager
+  - name: Alertmanager
+    type: alertmanager
+    access: proxy
+    url: http://alertmanager:9093
+    editable: false
+    jsonData:
+      handlegrafanaallusers: false

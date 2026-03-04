@@ -1,0 +1,19 @@
+[
+  {
+    "Sid": "DenyHumanConsoleAccess",
+    "Effect": "Deny",
+    "Action": [
+      "aws-portal:*Console*",
+      "signin:*"
+    ],
+    "Resource": "*",
+    "Condition": {
+      "ArnNotLike": {
+        "aws:PrincipalARN": [
+          "arn:aws:iam::*:role/BreakGlassRole",
+          "arn:aws:iam::*:role/AWSReservedSSO*"
+        ]
+      }
+    }
+  }
+]

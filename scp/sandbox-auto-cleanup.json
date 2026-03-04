@@ -1,0 +1,34 @@
+[
+  {
+    "Sid": "DenyCreateResourcesAfter24h",
+    "Effect": "Deny",
+    "Action": [
+      "ec2:RunInstances",
+      "rds:CreateDBInstance",
+      "rds:CreateDBCluster",
+      "s3:CreateBucket",
+      "ecs:CreateCluster",
+      "eks:CreateCluster"
+    ],
+    "Resource": "*",
+    "Condition": {
+      "DateGreaterThan": {
+        "aws:CurrentTime": "2026-02-27T00:00:00Z"
+      }
+    }
+  },
+  {
+    "Sid": "RequireTagsOnResources",
+    "Effect": "Deny",
+    "Action": [
+      "ec2:CreateVolume",
+      "s3:PutObject"
+    ],
+    "Resource": "*",
+    "Condition": {
+      "Null": {
+        "aws:RequestTag/Environment": "true"
+      }
+    }
+  }
+]
