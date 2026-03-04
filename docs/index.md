@@ -9,7 +9,7 @@ description: Complete documentation for the autonomous AWS Control Tower with 5 
 
 A fully autonomous, zero-trust enterprise infrastructure platform built on AWS with 5 AI Agents.
 
-![Banner](/docs/assets/banner.jpg)
+![Banner](/assets/banner.jpg)
 
 ## Why Control Tower?
 
@@ -31,22 +31,22 @@ Change Board → Control Tower (EKS + Kafka) → 5 Agents → 5 Environments
 ## Quick Links
 
 <CardGroup cols={2}>
-  <Card title="Foundation Layer" href="/docs/foundation" icon="shield-check">
+  <Card title="Foundation Layer" href="/foundation" icon="shield-check">
     IAM, Bootstrap, GitOps - Week 1
   </Card>
-  <Card title="Control Tower" href="/docs/control-tower" icon="brain">
+  <Card title="Control Tower" href="/control-tower" icon="brain">
     Kafka, LangChain Orchestration - Weeks 2-3
   </Card>
-  <Card title="Security Agent" href="/docs/security-agent" icon="lock-closed">
+  <Card title="Security Agent" href="/security-agent" icon="lock-closed">
     Kyverno, Falco, Policy Enforcement
   </Card>
-  <Card title="Network Agent" href="/docs/network-agent" icon="globe">
+  <Card title="Network Agent" href="/network-agent" icon="globe">
     Cilium, Istio, Zero-Trust Networking
   </Card>
-  <Card title="Infrastructure Agent" href="/docs/infrastructure-agent" icon="server">
+  <Card title="Infrastructure Agent" href="/infrastructure-agent" icon="server">
     Crossplane, Karpenter, Auto-scaling
   </Card>
-  <Card title="Environments" href="/docs/environments" icon="layers">
+  <Card title="Environments" href="/environments" icon="layers">
     5 Isolated AWS Accounts
   </Card>
 </CardGroup>
@@ -76,12 +76,12 @@ Change Board → Control Tower (EKS + Kafka) → 5 Agents → 5 Environments
 
 ## Get Started
 
-1. **[Foundation Layer](/docs/foundation)** — Start here to establish identity and GitOps
-2. **[Architecture Diagrams](/docs/diagrams)** — Visual overview of the system
-3. **[Environments](/docs/environments)** — Create isolated AWS accounts
+1. **[Foundation Layer](/foundation)** — Start here to establish identity and GitOps
+2. **[Architecture Diagrams](/diagrams)** — Visual overview of the system
+3. **[Environments](/environments)** — Create isolated AWS accounts
 
 ---
 
-<Card title="Contributing" icon="git-branch" href="/docs/CONTRIBUTING">
+<Card title="Contributing" icon="git-branch" href="/CONTRIBUTING">
   Learn how to edit and contribute to this documentation
 </Card>
