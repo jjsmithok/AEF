@@ -11,60 +11,31 @@
     "dark": "/docs/assets/logo.jpg"
   },
   "favicon": "/docs/assets/logo.jpg",
-  "navigation": [
-    {
-      "title": "Overview",
-      "url": "/docs"
-    },
-    {
-      "title": "Architecture",
-      "url": "/docs/diagrams"
-    },
-    {
-      "title": "Foundation",
-      "url": "/docs/foundation"
-    },
-    {
-      "title": "Control Tower",
-      "url": "/docs/control-tower"
-    },
-    {
-      "title": "Monitoring",
-      "url": "/docs/monitoring"
-    },
-    {
-      "title": "Security Agent",
-      "url": "/docs/security-agent"
-    },
-    {
-      "title": "Network Agent",
-      "url": "/docs/network-agent"
-    },
-    {
-      "title": "Infrastructure Agent",
-      "url": "/docs/infrastructure-agent"
-    },
-    {
-      "title": "Applications Agent",
-      "url": "/docs/applications-agent"
-    },
-    {
-      "title": "Member Agent",
-      "url": "/docs/member-agent"
-    },
-    {
-      "title": "Environments",
-      "url": "/docs/environments"
-    },
-    {
-      "title": "Governance",
-      "url": "/docs/governance"
-    },
-    {
-      "title": "Playbooks",
-      "url": "/docs/playbooks"
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["README", "diagrams"]
+          },
+          {
+            "group": "Core Layers",
+            "pages": ["foundation", "control-tower", "monitoring"]
+          },
+          {
+            "group": "Agents",
+            "pages": ["security-agent", "network-agent", "infrastructure-agent", "applications-agent", "member-agent"]
+          },
+          {
+            "group": "Operations",
+            "pages": ["environments", "governance", "playbooks"]
+          }
+        ]
+      }
+    ]
+  },
   "footerSocial": {
     "github": "https://github.com/jjsmithok/AEF"
   }
