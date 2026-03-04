@@ -5,7 +5,7 @@
   "footerSocial": {
     "github": "https://github.com/jjsmithok/AEF"
   },
-  "favicon": "/docs/assets/logo.jpg",
+  "favicon": "/assets/logo.jpg",
   "colors": {
     "primary": "#232F3E",
     "secondary": "#FF9900",
@@ -17,72 +17,66 @@
     }
   },
   "logo": {
-    "url": "/docs/assets/logo.jpg"
+    "url": "/assets/logo.jpg"
   },
   "darkMode": {
     "logo": {
-      "url": "/docs/assets/logo.jpg"
+      "url": "/assets/logo.jpg"
     }
   },
   "globals": {
     "metadata": {
-      "image": "/docs/assets/banner.jpg"
+      "image": "/assets/banner.jpg"
     }
   },
   "navigation": [
     {
       "title": "Overview",
-      "url": "/docs"
+      "url": ""
     },
     {
       "title": "Foundation Layer",
-      "url": "/docs/foundation",
-      "children": [
-        {
-          "title": "IAM & Bootstrap",
-          "url": "/docs/foundation"
-        }
-      ]
+      "url": "/foundation"
     },
     {
       "title": "Control Tower",
-      "url": "/docs/control-tower"
+      "url": "/control-tower"
     },
     {
       "title": "Monitoring",
-      "url": "/docs/monitoring"
+      "url": "/monitoring"
     },
     {
       "title": "Security Agent",
-      "url": "/docs/security-agent"
+      "url": "/security-agent"
     },
     {
       "title": "Network Agent",
-      "url": "/docs/network-agent"
+      "url": "/network-agent"
     },
     {
       "title": "Infrastructure Agent",
-      "url": "/docs/infrastructure-agent"
+      "url": "/infrastructure-agent"
     },
     {
       "title": "Applications Agent",
-      "url": "/docs/applications-agent"
+      "url": "/applications-agent"
     },
     {
       "title": "Member Agent",
-      "url": "/docs/member-agent"
+      "url": "/member-agent"
     },
     {
       "title": "Environments",
-      "url": "/docs/environments"
+      "url": "/environments"
     },
     {
       "title": "Governance",
-      "url": "/docs/governance"
+      "url": "/governance"
     },
     {
       "title": "Playbooks",
-      "url": "/docs/playbooks"
+      "url": "/playbooks"
     }
   ],
   "anchors": [
