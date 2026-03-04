@@ -18,7 +18,7 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["README", "diagrams"]
+            "pages": ["index", "diagrams"]
           },
           {
             "group": "Core Layers",
